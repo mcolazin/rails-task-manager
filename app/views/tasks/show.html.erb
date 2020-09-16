@@ -1,0 +1,19 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+</head>
+<body>
+  <div class="container">
+    <h2><%= @task.title  %></h2>
+    <p><%= @task.details %></p>
+    <p><%= @task.completed %></p>
+  </div>
+  <br><br>
+  <div class="link">
+    <%= link_to "Retorne à Página Principal", tasks_path %>
+  </div>
+
+</body>
+</html>
